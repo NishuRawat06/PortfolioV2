@@ -17,7 +17,7 @@ const Tape = () => {
   "Reliable",
 ];
   return (
-    <div className="py-16 lg:py-24 overflow-x-clip">
+    <div className="py-16 lg:py-24 overflow-x-clip my-8">
       <div className="bg-gradient-to-r from-green-400 to-blue-500 -rotate-3 -mx-1 relative overflow-hidden shadow-[0_20px_50px_rgba(16,185,129,0.15)]">
       <div className="flex [mask-image:linear-gradient(to_right,transparent,black_15%,black_85%,transparent)] py-3 md:py-4">
           <motion.div 

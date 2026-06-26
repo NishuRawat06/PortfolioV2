@@ -2,7 +2,7 @@ import { proj1, proj2, proj4, thethaiproject } from "../../public/assets";
 export const PROJECT_DATA = [
   {
     projectName: "Halfway",
-    year: "2025",
+    year: "2026",
     title: "Fair Meeting Place Finder Web Application",
     results: [
       {
@@ -25,7 +25,7 @@ export const PROJECT_DATA = [
   },
   {
     projectName: "The Thai Tourism",
-    year: "2024 - 2025",
+    year: "2026",
     title: "Thailand Travel Booking Web Application",
     results: [
       {
@@ -44,7 +44,7 @@ export const PROJECT_DATA = [
   },
   {
     projectName: "Quick Watch",
-    year: "2024 - 2025",
+    year: "2026",
     title: "Online movie streaming platform",
     results: [
       {
@@ -67,7 +67,7 @@ export const PROJECT_DATA = [
   },
   {
     projectName: "Fitclub Gym CRM",
-    year: "2024 - 2025",
+    year: "2026",
     title: "CRM Dashboard",
     results: [
       {
