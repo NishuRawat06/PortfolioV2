@@ -7,7 +7,7 @@ const Contact = () => {
         <div className="font-serif text-2xl md:text-3xl font-bold">
           Let's create something amazing together
         </div>
-        <a href="mailto:rawatnishu2005@gmail.com">
+        <a href="mailto:rawatnishu2005@gmail.com" target="_blank">
           <button className="text-white  bg-gray-900  px-6 h-12 rounded-xl gap-2 w-max border border-gray-900">
             Contact me
           </button>

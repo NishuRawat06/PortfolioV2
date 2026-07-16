@@ -27,7 +27,7 @@ const Navbar = () => {
         <div className="flex md:hidden w-full justify-end py-7 px-7 text-white/80">
         <Menu
           size={30}
-          className="cursor-pointe fixed z-9999 bg-black"
+          className="cursor-pointer fixed z-9999 bg-black"
           onClick={() => setIsOpen(true)}
         />
       </div>

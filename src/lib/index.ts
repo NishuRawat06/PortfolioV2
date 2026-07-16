@@ -1,26 +1,25 @@
-import { proj1, proj2, proj4, thethaiproject } from "../../public/assets";
+import { MovieX,thethaiproject,ArticleX } from "../../public/assets";
 export const PROJECT_DATA = [
   {
-    projectName: "Halfway",
+    projectName: "MovieX",
     year: "2026",
-    title: "Fair Meeting Place Finder Web Application",
+    title: "Online movie streaming platform",
     results: [
-      {
+       {
         title:
-          "Built a web app that helps users find fair meeting places between multiple locations.",
+          "Built a Netflix-like movie & TV streaming platform using TMDB API.",
       },
       {
         title:
-          "Implemented map-based search, vibe filters, and distance balancing logic for smarter meetup decisions.",
+          "Implemented real-time data fetching, trending lists, and personalized recommendations.",
       },
       {
-        title:
-          "Designed a clean, mobile-first UI focused on fast decision-making and real-world usability.",
+        title: "Optimized state management with Redux RTK and TanStack Query.",
       },
     ],
-    techStack: "Next.js, TypeScript, Tailwind CSS v4, OpenStreetMap, shadcn/ui",
-    link: "https://halfwayy.vercel.app/",
-    image: proj2,
+    techStack: "Next Js, Tailwind CSS, Redux RTK, TanStack Query, Typescript",
+    link: "https://movie-x-sigma.vercel.app/",
+    image: MovieX,
     disable: false,
   },
   {
@@ -43,48 +42,24 @@ export const PROJECT_DATA = [
     disable: true,
   },
   {
-    projectName: "Quick Watch",
+    projectName: "ArticleX",
     year: "2026",
-    title: "Online movie streaming platform",
+    title: "Full-Stack Blogging Platform",
     results: [
-      {
-        title:
-          "Built a Netflix-like movie & TV streaming platform using TMDB API.",
-      },
-      {
-        title:
-          "Implemented real-time data fetching, trending lists, and personalized recommendations.",
-      },
-      {
-        title: "Optimized state management with Redux RTK and TanStack Query.",
-      },
+       {
+      title:
+        "Developed a full-stack blogging platform where users can create, edit, delete, and explore articles through a modern and responsive interface.",
+    },
+    {
+      title:
+        "Built a scalable REST API with Express.js and MongoDB.",
+    },
     ],
     techStack:
       "Next Js, Tailwind CSS, Redux RTK, TanStack Query, MongoDB, Typescript",
-    link: "https://quickwatch.vercel.app/home",
-    image: proj1,
+    link: "https://article-x-live.vercel.app/",
+    image: ArticleX,
     disable: false,
   },
-  {
-    projectName: "Fitclub Gym CRM",
-    year: "2026",
-    title: "CRM Dashboard",
-    results: [
-      {
-        title:
-          "Developed a full-featured CRM for gym operations and client management.",
-      },
-      {
-        title:
-          "Implemented attendance tracking, invoicing, and role-based access.",
-      },
-      {
-        title: "Improved workflow efficiency for staff and trainers.",
-      },
-    ],
-    techStack: "React Js, Tailwind CSS, Node Js, Express Js, PostGresSQL, JWT",
-    link: "",
-    image: proj4,
-    disable: true,
-  },
+ 
 ];
