@@ -11,7 +11,7 @@ const Herosection = () => {
         className="absolute inset-0 -z-30 opacity-5"
         style={{ backgroundImage: `url(${grain.src})` }}
       ></div>
-      <div className="relative inset-0">
+      <div className="relative inset-0 pointer-events-none">
         <div
           className="absolute inset-0 h-250 animate-spin hidden lg:block"
           style={{ animationDuration: "30s" }}
